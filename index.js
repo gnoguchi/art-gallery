@@ -1,6 +1,7 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
+const pintura = require('./data/paints.json')
 const app = express();
 
 app.engine('handlebars', handlebars({ defaultLayout: 'main' }));
@@ -19,7 +20,7 @@ app.get('/sobre', (req, res) => {
 
 
 app.get('/galeria', (req, res) => {
-    res.render('galeria');
+    res.render('galeria', { pinturas: pintura });
 });
 
 app.get('/contato', (req, res) => {

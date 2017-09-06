@@ -1,0 +1,17 @@
+[
+    {
+        "foto": "pintura1.jpg",
+        "nome": "rio",
+        "autor": "Monet"
+    },
+    {
+        "foto": "pintura2.jpg",
+        "nome": "Mulher que chora",
+        "autor": "Pablo Picasso"
+    },
+    {
+        "foto": "pintura3.jpg",
+        "nome": "O beijo",
+        "autor": "GUstav Klimt"
+    }
+]
