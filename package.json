@@ -1,0 +1,28 @@
+{
+  "name": "art-gallery",
+  "version": "1.0.0",
+  "description": "art gallery site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnoguchi/art-gallery.git"
+  },
+  "contributors": [
+    "Gabriel Carmelo Noguchi <gabriel1tdsc@gmail.com> (http://github.com/gnoguchi)",
+    "Diego Coutinho <diegocoutingo@gmail.com> (http://github.com/coutinhodiego)"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnoguchi/art-gallery/issues"
+  },
+  "homepage": "https://github.com/gnoguchi/art-gallery#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0"
+  }
+}
