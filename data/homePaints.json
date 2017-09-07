@@ -1,0 +1,17 @@
+[
+    {
+        "pintura": "pinturaHome1.jpg",
+        "nome": "Insomnia",
+        "autor": "Renoir"
+    },
+    {
+        "pintura": "pinturaHome2.jpg",
+        "nome": "American Night",
+        "autor": "David Bowis"
+    },
+    {
+        "pintura": "pinturaHome3.jpg",
+        "nome": "La nuit",
+        "autor": "Renoir"
+    }
+]

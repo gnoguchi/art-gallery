@@ -34,18 +34,18 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item {{#if homePage }}active {{/if}} px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="/">Home
                 <span class="sr-only">(current)</span>
               </a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <li class="{{#if aboutPage }}active {{/if}} nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="sobre">Sobre</a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <li class=" {{#if galeryPage }}active {{/if}}nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="galeria">Galeria</a>
                     </li>
-                    <li class="nav-item px-lg-4">
+                    <li class=" {{#if contactPage }}active {{/if}} nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="contato">Contato</a>
                     </li>
                 </ul>
