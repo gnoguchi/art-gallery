@@ -12,8 +12,8 @@
                     <img class="img-fluid mb-4 mb-lg-0" src="img/galeria.jpg" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
+                    <p>A galeria de arte Novo Amanhecer foi inaugurada em 1995 com o intuito de propagar uma arte desconhecida, focando suas exposicoes em artistas ainda desconhecidos pelo o publico da arte em geral.</p>
+                    <p>Em sua inauguracao a galeria expos o trabalho de artistas de rua da propria regiao da galeria. Conseguindo desenvolver o trabalho de artistas antes desconhecidos para o mundo, hoje estao pintando por todo o mundo.</p>
                 </div>
             </div>
         </div>
@@ -25,36 +25,18 @@
             </h2>
             <hr class="divider">
             <div class="row">
+                {{#each colaboradores}}
                 <div class="col-md-4 mb-4 mb-md-0">
                     <div class="card h-100">
-                        <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                        <img class="card-img-top" src="img/{{foto}}" alt="">
                         <div class="card-body text-center">
-                            <h4 class="card-title m-0">John Smith
-                                <small class="text-muted">Job Title</small>
+                            <h4 class="card-title m-0">{{nome}}
+                                <small class="text-muted">{{cargo}}</small>
                             </h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4 mb-md-0">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-                        <div class="card-body text-center">
-                            <h4 class="card-title m-0">John Smith
-                                <small class="text-muted">Job Title</small>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-                        <div class="card-body text-center">
-                            <h4 class="card-title m-0">John Smith
-                                <small class="text-muted">Job Title</small>
-                            </h4>
-                        </div>
-                    </div>
-                </div>
+                {{/each}}
             </div>
         </div>
 
