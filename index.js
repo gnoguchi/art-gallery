@@ -2,6 +2,7 @@ const express = require('express');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const pintura = require('./data/paints.json')
+const pinturaHome = require('./data/homePaints.json')
 const colaboradores = require('./data/colaboradores.json')
 const app = express();
 
