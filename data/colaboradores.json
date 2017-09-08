@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Rosana Mota",
+    "cargo": "Curadora",
+    "foto": "colaborador1.jpg"
+  },
+  {
+    "nome": "Aline Garcia",
+    "cargo": "Administradora",
+    "foto": "colaborador2.jpg"
+  },
+  {
+    "nome": "Sergio Figueiredo",
+    "cargo": "Promoter",
+    "foto": "colaborador3.jpg"
+  }
+]

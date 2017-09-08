@@ -1,8 +1,8 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
-const pintura = require('./data/paints.json');
-const pinturaHome = require('./data/homePaints');
+const pintura = require('./data/paints.json')
+const colaboradores = require('./data/colaboradores.json')
 const app = express();
 
 app.engine('handlebars', handlebars({ defaultLayout: 'main' }));
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/sobre', (req, res) => {
-    res.render('sobre', {aboutPage: true});
+    res.render('sobre', {colaboradores: colaboradores});
 });
 
 
