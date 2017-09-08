@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/sobre', (req, res) => {
-    res.render('sobre', {colaboradores: colaboradores});
+    res.render('sobre', {aboutPage: true, colaboradores: colaboradores});
 });
 
 
