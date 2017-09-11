@@ -29,6 +29,10 @@ app.get('/contato', (req, res) => {
     res.render('contato', {contactPage:true});
 });
 
+app.get('/obrigado', (req, res) => {
+    res.render('obrigado');
+});
+
 app.listen(3000, () => {
     console.log('Ouvindo porta 3000...');
 });
